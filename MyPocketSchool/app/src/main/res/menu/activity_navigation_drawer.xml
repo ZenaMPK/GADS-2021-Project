@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="?attr/homeAsUpIndicator"
+        android:title="@string/menu_home" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@android:drawable/stat_notify_chat"
+            android:title="chat" />
+        <item
+            android:id="@+id/nav_assignment"
+            android:icon="?attr/actionModePasteDrawable"
+            android:title="assignment" />
+        <item
+            android:id="@+id/nav_meet"
+
+            android:icon="@android:drawable/sym_action_call"
+            android:title="meet" />
+    </group>
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/action_settings">
+
+    </item>
+</menu>
